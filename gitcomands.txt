@@ -1,0 +1,9 @@
+$ git : used to display common Git commands used in various situations with explanation
+
+configuring user details in local
+$ git config --global user.name "V M Aravind"
+$ git config --global user.email vmaravind07@gmail.com
+
+$ git init .  :  Create an empty Git repository or reinitialize an existing one in current directory
+
+$ git status  : Show the working tree status
