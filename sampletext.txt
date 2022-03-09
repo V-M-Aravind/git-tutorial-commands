@@ -1,1 +1,3 @@
 Contains some random text
+
+This text is only visible in the branch branch1.
