@@ -21,3 +21,14 @@ $ git checkout <commitid> : all files will change back to that version of files
 $ git checkout main  : all files will be restores to its latest commit version (if master is the name of branch, specify master in command instead of main)
 
 $ git log --all :  displays all the logs
+
+$ git commit --amend -m "new message"  : used to change the recent commit mesage
+
+$ git branch newbranchname   :  create a new branch in the git. The new branch is created in the recent version where the head is pointing currently.Means it will contain all data from the recent commit.
+
+$ git checkout branchname : switches to the specified branchranch
+
+$ git merge branchname:  merges the branch branchname to the current working branch. So if you want to merge branch2 to branch1, first you have to checkout to branch1, then git merge branch2
+
+
+
