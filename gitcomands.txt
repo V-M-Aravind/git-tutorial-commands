@@ -4,6 +4,16 @@ configuring user details in local
 $ git config --global user.name "V M Aravind"
 $ git config --global user.email vmaravind07@gmail.com
 
-$ git init .  :  Create an empty Git repository or reinitialize an existing one in current directory
+$ git init  :  Create an empty Git repository or reinitialize an existing one in current directory
 
 $ git status  : Show the working tree status
+
+$ git add filename  :  Add file contents to the index(stage)
+
+$ git rm --cached <file>:    to unstage
+
+$ git commit -m "commit message"  : Record changes to the repository
+
+$ git log  :  Show commit logs
+
+$
