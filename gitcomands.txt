@@ -16,4 +16,8 @@ $ git commit -m "commit message"  : Record changes to the repository
 
 $ git log  :  Show commit logs
 
-$
+$ git checkout <commitid> : all files will change back to that version of files
+
+$ git checkout main  : all files will be restores to its latest commit version (if master is the name of branch, specify master in command instead of main)
+
+$ git log --all :  displays all the logs
