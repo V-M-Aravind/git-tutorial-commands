@@ -30,5 +30,12 @@ $ git checkout branchname : switches to the specified branchranch
 
 $ git merge branchname:  merges the branch branchname to the current working branch. So if you want to merge branch2 to branch1, first you have to checkout to branch1, then git merge branch2
 
+types of merges: fast forward merge, recursivse merge
+
+$ git branch  : shows all the branch and displays the current branch
+
+$ git diff   : shows the difference between the changes in files compared to last commit. compares files between now and last commit
+
+$ git stash  :  delete the new changes and restores back to the last commit
 
 
