@@ -1,0 +1,8 @@
+Microservices
+
+Service discovery : Consul, Netflix Eureka
+Event Sourcing    : AxonIQ
+Circuit breaker   : Netflix Resilience4j , Netflix Hysterix
+
+
+
