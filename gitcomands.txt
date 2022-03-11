@@ -39,3 +39,16 @@ $ git diff   : shows the difference between the changes in files compared to las
 $ git stash  :  delete the new changes and restores back to the last commit
 
 
+$ git remote add origin gitssh/httpslink_of_repository   : to add the remote repository to local for the purpose of connecting local to the remote.. used to pull or push codes between local and remote
+							   Here origin is the name given by us for the remote repository..You can give any name
+
+$ git remote :  shows the name of addded remote repository
+
+$ git remote -v  : shows the links of fetch and push links of connected remote repository
+
+$ git push name_of_remote_repository branch_name  : pushes your local data in the specified branch to your remote repository under the same branch name
+						eg: git push origin main
+						 here origin is the name given by us to remote repository when we connected it
+
+$ git clone remoterepository_clone_link  :  will clone the remository into your local under the same remote repository name in the current directory you are in
+
