@@ -24,6 +24,8 @@ $ git log --all :  displays all the logs
 
 $ git commit --amend -m "new message"  : used to change the recent commit mesage
 
+$ git show commitid  : shows the change that has been introduced in the files after the specified commit
+
 $ git branch newbranchname   :  create a new branch in the git. The new branch is created in the recent version where the head is pointing currently.Means it will contain all data from the recent commit.
 
 $ git checkout branchname : switches to the specified branchranch
@@ -50,9 +52,14 @@ $ git push name_of_remote_repository branch_name  : pushes your local data in th
 						eg: git push origin main
 						 here origin is the name given by us to remote repository when we connected it
 
+$ git push origin : By default pushes all your branches to the origin
+
 $ git clone remoterepository_clone_link  :  will clone the remository into your local under the same remote repository name in the current directory you are in
 
 $ git pull origin master   :  pulls the latest code from repository added in the name of origin to the master branch in the local. {pull = fetch + merge}
-
+###############
 pull request  :  A pull request is an event in Git where a contributor asks a maintainer of a Git repository to review code they want to merge into a project.
 
+ .gitignore file : if you have a .gitignore file in your root of your local git, all the files specified in .gitignore will not tracked and pushed.. files that contain user data,hidden files, temp files etc
+    specify the file names in each line..you can also specify folders as well
+	when you create a new repository in github you can specify the gitignore file in settings which will give you predefined .gitignore for specific programming language
