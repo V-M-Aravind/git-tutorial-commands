@@ -52,3 +52,7 @@ $ git push name_of_remote_repository branch_name  : pushes your local data in th
 
 $ git clone remoterepository_clone_link  :  will clone the remository into your local under the same remote repository name in the current directory you are in
 
+$ git pull origin master   :  pulls the latest code from repository added in the name of origin to the master branch in the local. {pull = fetch + merge}
+
+pull request  :  A pull request is an event in Git where a contributor asks a maintainer of a Git repository to review code they want to merge into a project.
+
